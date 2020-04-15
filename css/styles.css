@@ -1,0 +1,56 @@
+ls
+html{
+    /* This property is being addes so the footer 
+    inherits the position from the html and stays on the 
+    bottom of the page */
+    position: relative;
+    min-height: 100%;
+}
+body{
+    
+    background-image: url(../images/background.jpg);
+    /* Will respect the proportions of the image always 
+    making sure it fills the container */
+    background-size: cover ;
+    background-position: center;
+    margin-bottom: 50px;
+    
+}
+.navbar{
+    background-image: url(../images/metal_texture_1500x250.svg);
+    background-size: cover ;
+    background-position: center;
+}
+.navbar-blue{
+    background-image: url(../images/blue_metal_texture_1500x250.svg);
+    background-size: cover ;
+    background-position: center;
+}
+.form-control{
+    background-color:  rgba(116, 114, 114, 0.685);
+    border: 1px solid rgba(0, 0, 0, 0.247);
+
+}
+
+footer{
+
+    height: 50px;
+    width: 100%;
+    background-image: url(../images/metal_texture_1500x250.svg);
+    background-size: cover ;
+    background-position: center;
+    position: absolute;
+    bottom:0;
+    line-height: 50px;
+    padding: 0px 20px;
+
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.527);
+    
+}
+.card-header{
+    background-image: url(../images/dark_metal_texture_1500x250.svg);
+    background-size: cover;
+    background-position: center;
+}
